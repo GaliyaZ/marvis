@@ -1,22 +1,33 @@
-.price {
-    padding-left: 70px;
-}
-
 .price__text {
     position: relative;
-    //display: inline-block;
+    font-family: "Museo Sans Cyrl", Arial, sans-serif;
+    font-size: 11px;
+    line-height: 11px;
     text-transform: uppercase;
     color: #d5132a;
-    padding-bottom: 7px;
+    padding-bottom: 5px;
+    margin-left: 80px;
     border-bottom: 1px dashed #d5132a;
 }
 
 .price__text::before {
     content: "";
     position: absolute;
+    width: 0px;
+    height: 0px;
+    background: #000000;
+    box-shadow: 0px 0px 100px 40px rgba(0, 0, 0, 0.43);
+    border-radius: 50%;
+    top: 0px;
+    left: -55px;
+}
+
+.price__text::after {
+    content: "";
+    position: absolute;
     background: url("../img/price.png") no-repeat;
     width: 68px;
     height: 69px;
     top: -20px;
-    left: 0px;
+    left: -85px;
 }
