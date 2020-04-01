@@ -1,0 +1,40 @@
+.contacts__status {
+    position: relative;
+    font-family: "Museo Sans Cyrl", Arial, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 300;
+    color: #00af47;
+    padding-left: 24px;
+}
+
+.contacts__status::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #00af47;
+    border-radius: 50%;
+    top: 1px;
+    left: 0px;
+}
+
+.contacts__tel {
+    position: relative;
+    font-family: "GothamPro", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-style: bold;
+    color: #262626;
+    padding-left: 24px;
+}
+
+.contacts__tel::before {
+    content: "";
+    position: absolute;
+    background: url("../img/phone.png") no-repeat;
+    width: 17px;
+    height: 77px;
+    top: 3px;
+    left: -5px;
+}

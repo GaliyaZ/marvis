@@ -1,0 +1,51 @@
+.info {
+    width: 23vw;
+}
+
+.info__heading {
+    font-family: "Museo Sans Cyrl", Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+    color: #585858;
+    margin-bottom: 18px;
+}
+
+.info__advantages {
+    display: flex;
+}
+
+.info__advantage {
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 500;
+    color: #282828;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.info__advantage--fast::before {
+    content: "";
+    position: absolute;
+    background: url("../img/clock.png") no-repeat;
+    width: 30px;
+    height: 27px;
+    top: -8px;
+    left: -4px;
+}
+
+.info__advantage--safe {
+    padding-left: 40px; 
+    padding-right: 0;
+}
+
+.info__advantage--safe::before {
+    content: "";
+    position: absolute;
+    background: url("../img/safe.png") no-repeat;
+    width: 34px;
+    height: 26px;
+    top: -7px;
+    left: 0px;
+}
