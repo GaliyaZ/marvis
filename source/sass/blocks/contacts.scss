@@ -24,9 +24,11 @@
     font-family: "GothamPro", Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
-    font-style: bold;
+    font-weight: 700;
+    font-style: normal;
     color: #262626;
     padding-left: 24px;
+    text-decoration: none;
 }
 
 .contacts__tel::before {

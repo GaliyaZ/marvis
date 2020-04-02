@@ -1,3 +1,7 @@
+.order {
+    width: 36vw;
+}
+
 .order__free-wrap {
     position: relative;
 }
@@ -23,10 +27,76 @@
     background: url("../img/orange-form.png") no-repeat;
     text-align: center;
 
-    font-family: "BerlingskeSerif DBd", Arial, sans-serif;
+    font-family: "BerlingskeSerif DBd", "Times New Roman", serif;
     font-size: 18px;
     line-height: 70px;
     font-style: italic;
     color: #ffffff;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.18);
+}
+
+.order__free::before {
+    content: "";
+    position: absolute;
+    background: url("../img/money.png") no-repeat;
+    width: 89px;
+    height: 72px;
+    top: -15px;
+    right: -98px;
+}
+
+.order__minute {
+    font-family: "GothamPro", Arial, sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: normal;
+    font-style: normal;
+    color: #282828;
+    margin-top: 55px; 
+    margin-bottom: 20px; 
+}
+
+.order__minute-special {
+    font-family: "BerlingskeSerif Blk", "Times New Roman", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #282828;
+    font-style: italic;
+}
+
+.order__site {
+    position: relative;
+    font-family: "GothamPro", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: normal;
+    font-style: normal;
+    color: #282828;
+    padding-left: 65px;
+    margin: 0;
+}
+
+.order__site-special {
+    position: relative;
+    font-family: "BerlingskeSerif ExtBd", Arial, sans-serif;
+}
+
+.order__site::after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    width: 42px;
+    height: 1px;
+    top: 24px;
+    left: 0px;      
+}
+
+.order__site::before {
+    content: "";
+    position: absolute;
+    background: rgba(255, 179, 69, 0.4);
+    width: 158px;
+    height: 11px;
+    top: 28px;
+    left: 360px;
 }
