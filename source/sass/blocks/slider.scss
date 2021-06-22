@@ -1,4 +1,22 @@
 .slider__wrapper {
   list-style: none;
   display: flex;
+  width: 80%;
+  height: auto;
+  position: relative;
+}
+
+.slider__item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.slider__item--active {
+  display: block;
+}
+
+.slider__img {
+  border-radius: 10% 30% 50% 70%;
 }
